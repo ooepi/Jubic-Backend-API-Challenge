@@ -16,8 +16,6 @@ public class License {
 	private LocalDate queriedAt;
 	
 	public License() {}
-
-	
 	
 	public License(String name, LocalDate expiresAt) {
 		this.name = name;
