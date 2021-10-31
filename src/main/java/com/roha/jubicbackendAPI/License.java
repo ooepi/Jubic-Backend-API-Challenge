@@ -1,7 +1,6 @@
 package com.roha.jubicbackendAPI;
 
 import java.time.LocalDate;
-import java.util.Objects;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,7 +20,6 @@ public class License {
 		this.name = name;
 		this.expiresAt = expiresAt;
 	}
-
 
 	public Long getId() {
 		return id;
@@ -54,8 +52,6 @@ public class License {
 	public void setQueriedAt(LocalDate queriedAt) {
 		this.queriedAt = queriedAt;
 	}
-
-
 
 	@Override
 	public String toString() {
